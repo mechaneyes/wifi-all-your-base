@@ -1,0 +1,1378 @@
+{
+  "timestamp": "2026-03-31T17:59:24.589837",
+  "total_manufacturers": 196,
+  "manufacturers": [
+    {
+      "manufacturer": "Unknown",
+      "count": 3164,
+      "avg_signal": -40.62705436156764,
+      "total_bytes": 2508443,
+      "avg_bytes": 792.8075221238938
+    },
+    {
+      "manufacturer": "eero inc.",
+      "count": 469,
+      "avg_signal": -58.87420042643923,
+      "total_bytes": 162997,
+      "avg_bytes": 347.5415778251599
+    },
+    {
+      "manufacturer": "Arcadyan Corporation",
+      "count": 417,
+      "avg_signal": -53.91846522781775,
+      "total_bytes": 286838,
+      "avg_bytes": 687.8609112709833
+    },
+    {
+      "manufacturer": "Wistron Neweb Corporation",
+      "count": 368,
+      "avg_signal": -53.57065217391305,
+      "total_bytes": 366998,
+      "avg_bytes": 997.2771739130435
+    },
+    {
+      "manufacturer": "Epigram, Inc.",
+      "count": 322,
+      "avg_signal": -74.54347826086956,
+      "total_bytes": 3328,
+      "avg_bytes": 10.335403726708075
+    },
+    {
+      "manufacturer": "ASKEY COMPUTER CORP",
+      "count": 279,
+      "avg_signal": -59.98924731182796,
+      "total_bytes": 612918,
+      "avg_bytes": 2196.8387096774195
+    },
+    {
+      "manufacturer": "Ubiquiti Inc",
+      "count": 264,
+      "avg_signal": -60.71969696969697,
+      "total_bytes": 859045,
+      "avg_bytes": 3253.9583333333335
+    },
+    {
+      "manufacturer": "Sagemcom Broadband SAS",
+      "count": 258,
+      "avg_signal": -61.27131782945737,
+      "total_bytes": 138633,
+      "avg_bytes": 537.3372093023256
+    },
+    {
+      "manufacturer": "Apple, Inc.",
+      "count": 218,
+      "avg_signal": -27.206422018348626,
+      "total_bytes": 167939,
+      "avg_bytes": 770.3623853211009
+    },
+    {
+      "manufacturer": "Google, Inc.",
+      "count": 199,
+      "avg_signal": -48.04522613065327,
+      "total_bytes": 485294,
+      "avg_bytes": 2438.6633165829144
+    },
+    {
+      "manufacturer": "NETGEAR",
+      "count": 178,
+      "avg_signal": -61.03932584269663,
+      "total_bytes": 180415,
+      "avg_bytes": 1013.5674157303371
+    },
+    {
+      "manufacturer": "Sonos, Inc.",
+      "count": 174,
+      "avg_signal": -35.63793103448276,
+      "total_bytes": 1265556,
+      "avg_bytes": 7273.310344827586
+    },
+    {
+      "manufacturer": "TP-Link Systems Inc",
+      "count": 152,
+      "avg_signal": -54.0328947368421,
+      "total_bytes": 29006,
+      "avg_bytes": 190.82894736842104
+    },
+    {
+      "manufacturer": "SERCOMM PHILIPPINES INC",
+      "count": 122,
+      "avg_signal": -60.28688524590164,
+      "total_bytes": 8944,
+      "avg_bytes": 73.31147540983606
+    },
+    {
+      "manufacturer": "Cisco Systems, Inc",
+      "count": 116,
+      "avg_signal": -69.80172413793103,
+      "total_bytes": 8572,
+      "avg_bytes": 73.89655172413794
+    },
+    {
+      "manufacturer": "TP-LINK TECHNOLOGIES CO.,LTD.",
+      "count": 103,
+      "avg_signal": -66.29126213592232,
+      "total_bytes": 5748,
+      "avg_bytes": 55.80582524271845
+    },
+    {
+      "manufacturer": "Samsung Electronics Co.,Ltd",
+      "count": 82,
+      "avg_signal": -15.195121951219512,
+      "total_bytes": 217867,
+      "avg_bytes": 2656.9146341463415
+    },
+    {
+      "manufacturer": "ASUSTek COMPUTER INC.",
+      "count": 62,
+      "avg_signal": -58.32258064516129,
+      "total_bytes": 3866,
+      "avg_bytes": 62.354838709677416
+    },
+    {
+      "manufacturer": "Roku, Inc",
+      "count": 61,
+      "avg_signal": -66.65573770491804,
+      "total_bytes": 5876,
+      "avg_bytes": 96.32786885245902
+    },
+    {
+      "manufacturer": "MediaTek Inc",
+      "count": 60,
+      "avg_signal": -69.25,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Espressif Inc.",
+      "count": 51,
+      "avg_signal": -32.80392156862745,
+      "total_bytes": 3848,
+      "avg_bytes": 75.45098039215686
+    },
+    {
+      "manufacturer": "Ruckus Wireless",
+      "count": 47,
+      "avg_signal": -69.59574468085107,
+      "total_bytes": 110,
+      "avg_bytes": 2.3404255319148937
+    },
+    {
+      "manufacturer": "Intel Corporate",
+      "count": 45,
+      "avg_signal": -21.377777777777776,
+      "total_bytes": 7922,
+      "avg_bytes": 176.04444444444445
+    },
+    {
+      "manufacturer": "Amazon Technologies Inc.",
+      "count": 45,
+      "avg_signal": -15.022222222222222,
+      "total_bytes": 16654,
+      "avg_bytes": 370.0888888888889
+    },
+    {
+      "manufacturer": "Belkin International Inc.",
+      "count": 42,
+      "avg_signal": -59.61904761904762,
+      "total_bytes": 1169,
+      "avg_bytes": 27.833333333333332
+    },
+    {
+      "manufacturer": "Metalink LTD.",
+      "count": 41,
+      "avg_signal": -79.09756097560975,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "DWnet Technologies(Suzhou) Corporation",
+      "count": 41,
+      "avg_signal": -64.29268292682927,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Verizon ",
+      "count": 30,
+      "avg_signal": -63.5,
+      "total_bytes": 7950,
+      "avg_bytes": 265.0
+    },
+    {
+      "manufacturer": "Hewlett Packard",
+      "count": 30,
+      "avg_signal": -58.833333333333336,
+      "total_bytes": 2163,
+      "avg_bytes": 72.1
+    },
+    {
+      "manufacturer": "Routerboard.com",
+      "count": 27,
+      "avg_signal": -55.333333333333336,
+      "total_bytes": 2410,
+      "avg_bytes": 89.25925925925925
+    },
+    {
+      "manufacturer": "Hangzhou Hikvision Digital Technology Co.,Ltd.",
+      "count": 27,
+      "avg_signal": 0.0,
+      "total_bytes": 13124,
+      "avg_bytes": 486.0740740740741
+    },
+    {
+      "manufacturer": "Micro-Star INTL CO., LTD.",
+      "count": 27,
+      "avg_signal": 0.0,
+      "total_bytes": 20236,
+      "avg_bytes": 749.4814814814815
+    },
+    {
+      "manufacturer": "Hon Hai Precision Ind. Co.,Ltd.",
+      "count": 26,
+      "avg_signal": -42.61538461538461,
+      "total_bytes": 3566,
+      "avg_bytes": 137.15384615384616
+    },
+    {
+      "manufacturer": "TP-Link Systems Inc.",
+      "count": 26,
+      "avg_signal": -59.96153846153846,
+      "total_bytes": 3490,
+      "avg_bytes": 134.23076923076923
+    },
+    {
+      "manufacturer": "Cisco Meraki",
+      "count": 26,
+      "avg_signal": -21.384615384615383,
+      "total_bytes": 1863,
+      "avg_bytes": 71.65384615384616
+    },
+    {
+      "manufacturer": "Hewlett Packard Enterprise ",
+      "count": 25,
+      "avg_signal": -75.8,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Commscope",
+      "count": 24,
+      "avg_signal": -37.291666666666664,
+      "total_bytes": 56780,
+      "avg_bytes": 2365.8333333333335
+    },
+    {
+      "manufacturer": "Hui Zhou Gaoshengda Technology Co.,LTD",
+      "count": 17,
+      "avg_signal": -30.88235294117647,
+      "total_bytes": 3831,
+      "avg_bytes": 225.35294117647058
+    },
+    {
+      "manufacturer": "Tuya Smart Inc.",
+      "count": 15,
+      "avg_signal": -13.6,
+      "total_bytes": 4086,
+      "avg_bytes": 272.4
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "count": 15,
+      "avg_signal": -31.333333333333332,
+      "total_bytes": 93331,
+      "avg_bytes": 6222.066666666667
+    },
+    {
+      "manufacturer": "Mist Systems, Inc.",
+      "count": 14,
+      "avg_signal": -77.71428571428571,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "AMPAK Technology,Inc.",
+      "count": 12,
+      "avg_signal": -23.0,
+      "total_bytes": 880669,
+      "avg_bytes": 73389.08333333333
+    },
+    {
+      "manufacturer": "Actiontec Electronics, Inc",
+      "count": 12,
+      "avg_signal": -65.08333333333333,
+      "total_bytes": 70,
+      "avg_bytes": 5.833333333333333
+    },
+    {
+      "manufacturer": "Nest Labs Inc.",
+      "count": 11,
+      "avg_signal": -24.272727272727273,
+      "total_bytes": 30800,
+      "avg_bytes": 2800.0
+    },
+    {
+      "manufacturer": "Tenda Technology Co.,Ltd.Dongguan branch",
+      "count": 11,
+      "avg_signal": -39.36363636363637,
+      "total_bytes": 7779049,
+      "avg_bytes": 707186.2727272727
+    },
+    {
+      "manufacturer": "HP Inc.",
+      "count": 10,
+      "avg_signal": -31.8,
+      "total_bytes": 2398,
+      "avg_bytes": 239.8
+    },
+    {
+      "manufacturer": "Smart Innovation LLC",
+      "count": 10,
+      "avg_signal": -45.4,
+      "total_bytes": 1068,
+      "avg_bytes": 106.8
+    },
+    {
+      "manufacturer": "Bose Corporation",
+      "count": 10,
+      "avg_signal": -13.2,
+      "total_bytes": 5148,
+      "avg_bytes": 514.8
+    },
+    {
+      "manufacturer": "SHENZHEN BILIAN ELECTRONIC CO.\uff0cLTD",
+      "count": 10,
+      "avg_signal": -54.7,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Luxul ",
+      "count": 10,
+      "avg_signal": -41.3,
+      "total_bytes": 2197,
+      "avg_bytes": 219.7
+    },
+    {
+      "manufacturer": "CLOUD NETWORK TECHNOLOGY SINGAPORE PTE. LTD.",
+      "count": 9,
+      "avg_signal": -15.444444444444445,
+      "total_bytes": 4563,
+      "avg_bytes": 507.0
+    },
+    {
+      "manufacturer": "LG Innotek",
+      "count": 8,
+      "avg_signal": -28.25,
+      "total_bytes": 3218,
+      "avg_bytes": 402.25
+    },
+    {
+      "manufacturer": "Philips Lighting BV",
+      "count": 7,
+      "avg_signal": 0.0,
+      "total_bytes": 5458,
+      "avg_bytes": 779.7142857142857
+    },
+    {
+      "manufacturer": "Beijing Roborock Technology Co., Ltd.",
+      "count": 7,
+      "avg_signal": 0.0,
+      "total_bytes": 2077,
+      "avg_bytes": 296.7142857142857
+    },
+    {
+      "manufacturer": "Zyxel Communications Corporation",
+      "count": 7,
+      "avg_signal": -52.57142857142857,
+      "total_bytes": 442,
+      "avg_bytes": 63.142857142857146
+    },
+    {
+      "manufacturer": "GD Midea Air-Conditioning Equipment Co.,Ltd.",
+      "count": 7,
+      "avg_signal": -49.857142857142854,
+      "total_bytes": 912,
+      "avg_bytes": 130.28571428571428
+    },
+    {
+      "manufacturer": "Ring LLC",
+      "count": 7,
+      "avg_signal": -28.142857142857142,
+      "total_bytes": 4921,
+      "avg_bytes": 703.0
+    },
+    {
+      "manufacturer": "CradlePoint, Inc",
+      "count": 7,
+      "avg_signal": -65.28571428571429,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Tesla,Inc.",
+      "count": 6,
+      "avg_signal": -37.166666666666664,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "ALPSALPINE CO,.LTD",
+      "count": 6,
+      "avg_signal": -58.166666666666664,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "CHONGQING FUGUI ELECTRONICS CO.,LTD.",
+      "count": 6,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "LIFI LABS MANAGEMENT PTY LTD",
+      "count": 6,
+      "avg_signal": 0.0,
+      "total_bytes": 321,
+      "avg_bytes": 53.5
+    },
+    {
+      "manufacturer": "Qingdao Intelligent&Precise Electronics Co.,Ltd.",
+      "count": 6,
+      "avg_signal": -10.0,
+      "total_bytes": 7599,
+      "avg_bytes": 1266.5
+    },
+    {
+      "manufacturer": "Wyze Labs Inc",
+      "count": 6,
+      "avg_signal": -18.0,
+      "total_bytes": 1652,
+      "avg_bytes": 275.3333333333333
+    },
+    {
+      "manufacturer": "Dyson Limited",
+      "count": 5,
+      "avg_signal": -13.2,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "WiZ",
+      "count": 5,
+      "avg_signal": 0.0,
+      "total_bytes": 487,
+      "avg_bytes": 97.4
+    },
+    {
+      "manufacturer": "Chengdu Meross Technology Co., Ltd.",
+      "count": 5,
+      "avg_signal": -40.8,
+      "total_bytes": 2615,
+      "avg_bytes": 523.0
+    },
+    {
+      "manufacturer": "AzureWave Technology Inc.",
+      "count": 5,
+      "avg_signal": -15.0,
+      "total_bytes": 441512,
+      "avg_bytes": 88302.4
+    },
+    {
+      "manufacturer": "Murata Manufacturing Co., Ltd.",
+      "count": 5,
+      "avg_signal": -12.6,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Private",
+      "count": 5,
+      "avg_signal": -14.0,
+      "total_bytes": 1023,
+      "avg_bytes": 204.6
+    },
+    {
+      "manufacturer": "Card Access, Inc.",
+      "count": 5,
+      "avg_signal": -14.4,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Zhejiang Uniview Technologies Co.,Ltd.",
+      "count": 4,
+      "avg_signal": 0.0,
+      "total_bytes": 560,
+      "avg_bytes": 140.0
+    },
+    {
+      "manufacturer": "REALTEK SEMICONDUCTOR CORP.",
+      "count": 4,
+      "avg_signal": -69.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "u-blox AG",
+      "count": 4,
+      "avg_signal": -37.75,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Vizio, Inc",
+      "count": 4,
+      "avg_signal": -16.0,
+      "total_bytes": 280,
+      "avg_bytes": 70.0
+    },
+    {
+      "manufacturer": "D&M Holdings Inc.",
+      "count": 4,
+      "avg_signal": -8.25,
+      "total_bytes": 32673,
+      "avg_bytes": 8168.25
+    },
+    {
+      "manufacturer": "Miele & Cie. KG",
+      "count": 4,
+      "avg_signal": -34.75,
+      "total_bytes": 481,
+      "avg_bytes": 120.25
+    },
+    {
+      "manufacturer": "ecobee inc",
+      "count": 3,
+      "avg_signal": -34.333333333333336,
+      "total_bytes": 716,
+      "avg_bytes": 238.66666666666666
+    },
+    {
+      "manufacturer": "Verizon Business",
+      "count": 3,
+      "avg_signal": -38.666666666666664,
+      "total_bytes": 103,
+      "avg_bytes": 34.333333333333336
+    },
+    {
+      "manufacturer": "Cloud Network Technology (Samoa) Limited",
+      "count": 3,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Cisco-Linksys, LLC",
+      "count": 3,
+      "avg_signal": -46.666666666666664,
+      "total_bytes": 100,
+      "avg_bytes": 33.333333333333336
+    },
+    {
+      "manufacturer": "Aura Home, Inc.",
+      "count": 3,
+      "avg_signal": 0.0,
+      "total_bytes": 3008,
+      "avg_bytes": 1002.6666666666666
+    },
+    {
+      "manufacturer": "Motorola Mobility LLC, a Lenovo Company",
+      "count": 3,
+      "avg_signal": -76.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Delta Electronics",
+      "count": 3,
+      "avg_signal": -23.0,
+      "total_bytes": 429,
+      "avg_bytes": 143.0
+    },
+    {
+      "manufacturer": "Earda Technologies co Ltd",
+      "count": 3,
+      "avg_signal": -78.66666666666667,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "GL Technologies (Hong Kong) Limited",
+      "count": 3,
+      "avg_signal": -34.666666666666664,
+      "total_bytes": 70,
+      "avg_bytes": 23.333333333333332
+    },
+    {
+      "manufacturer": "LinkSprite Technologies, Inc.",
+      "count": 3,
+      "avg_signal": -22.666666666666668,
+      "total_bytes": 1629,
+      "avg_bytes": 543.0
+    },
+    {
+      "manufacturer": "Nokia Solutions and Networks GmbH & Co. KG",
+      "count": 3,
+      "avg_signal": -59.333333333333336,
+      "total_bytes": 108,
+      "avg_bytes": 36.0
+    },
+    {
+      "manufacturer": "Liteon Technology Corporation",
+      "count": 3,
+      "avg_signal": -53.666666666666664,
+      "total_bytes": 620,
+      "avg_bytes": 206.66666666666666
+    },
+    {
+      "manufacturer": "FLEXTRONICS",
+      "count": 3,
+      "avg_signal": -50.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Vivint Inc",
+      "count": 3,
+      "avg_signal": -36.666666666666664,
+      "total_bytes": 5116,
+      "avg_bytes": 1705.3333333333333
+    },
+    {
+      "manufacturer": "SAMSUNG ELECTRO-MECHANICS(THAILAND)",
+      "count": 3,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Synology Incorporated",
+      "count": 3,
+      "avg_signal": 0.0,
+      "total_bytes": 9017,
+      "avg_bytes": 3005.6666666666665
+    },
+    {
+      "manufacturer": "TiVo",
+      "count": 3,
+      "avg_signal": -53.333333333333336,
+      "total_bytes": 2296,
+      "avg_bytes": 765.3333333333334
+    },
+    {
+      "manufacturer": "Raspberry Pi Trading Ltd",
+      "count": 3,
+      "avg_signal": -19.333333333333332,
+      "total_bytes": 821070,
+      "avg_bytes": 273690.0
+    },
+    {
+      "manufacturer": "TVT CO.,LTD",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 3282,
+      "avg_bytes": 1641.0
+    },
+    {
+      "manufacturer": "Wi-Fi Alliance",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "CANON INC.",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 1204,
+      "avg_bytes": 602.0
+    },
+    {
+      "manufacturer": "Clover Network, Inc.",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 200,
+      "avg_bytes": 100.0
+    },
+    {
+      "manufacturer": "COMPAL INFORMATION (KUNSHAN) CO., LTD. ",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 148,
+      "avg_bytes": 74.0
+    },
+    {
+      "manufacturer": "Microsoft Corporation",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 1015,
+      "avg_bytes": 507.5
+    },
+    {
+      "manufacturer": "GE Lighting",
+      "count": 2,
+      "avg_signal": -64.5,
+      "total_bytes": 2073,
+      "avg_bytes": 1036.5
+    },
+    {
+      "manufacturer": "Nanoleaf",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 288,
+      "avg_bytes": 144.0
+    },
+    {
+      "manufacturer": "Honeywell SPS",
+      "count": 2,
+      "avg_signal": -69.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Shenzhen Xunman Technology Co., Ltd",
+      "count": 2,
+      "avg_signal": -73.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Sony Interactive Entertainment Inc.",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 508,
+      "avg_bytes": 254.0
+    },
+    {
+      "manufacturer": "LG Electronics",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 344,
+      "avg_bytes": 172.0
+    },
+    {
+      "manufacturer": "Vantiva USA LLC",
+      "count": 2,
+      "avg_signal": -30.5,
+      "total_bytes": 108,
+      "avg_bytes": 54.0
+    },
+    {
+      "manufacturer": "Shenzhen Intellirocks Tech. Co. Ltd.",
+      "count": 2,
+      "avg_signal": -34.0,
+      "total_bytes": 156,
+      "avg_bytes": 78.0
+    },
+    {
+      "manufacturer": "Zhejiang Dahua Technology Co., Ltd.",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 306,
+      "avg_bytes": 153.0
+    },
+    {
+      "manufacturer": "SJI Industry Company",
+      "count": 2,
+      "avg_signal": -71.0,
+      "total_bytes": 52,
+      "avg_bytes": 26.0
+    },
+    {
+      "manufacturer": "IEEE Registration Authority",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 1764,
+      "avg_bytes": 882.0
+    },
+    {
+      "manufacturer": "AltoBeam Inc.",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 62,
+      "avg_bytes": 31.0
+    },
+    {
+      "manufacturer": "Universal Global Scientific Industrial Co., Ltd.",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Guangzhou Shiyuan Electronic Technology Company Limited",
+      "count": 2,
+      "avg_signal": -71.5,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Shanghai Sunmi Technology Co.,Ltd.",
+      "count": 2,
+      "avg_signal": 0.0,
+      "total_bytes": 250,
+      "avg_bytes": 125.0
+    },
+    {
+      "manufacturer": "Select Comfort",
+      "count": 2,
+      "avg_signal": -37.0,
+      "total_bytes": 263,
+      "avg_bytes": 131.5
+    },
+    {
+      "manufacturer": "Raspberry Pi (Trading) Ltd",
+      "count": 2,
+      "avg_signal": -24.0,
+      "total_bytes": 774,
+      "avg_bytes": 387.0
+    },
+    {
+      "manufacturer": "Guangzhou Juan Optical and Electronical Tech Joint Stock Co., Ltd",
+      "count": 2,
+      "avg_signal": -33.5,
+      "total_bytes": 192,
+      "avg_bytes": 96.0
+    },
+    {
+      "manufacturer": "Shenzhen Cudy Technology Co., Ltd.",
+      "count": 2,
+      "avg_signal": -35.5,
+      "total_bytes": 76,
+      "avg_bytes": 38.0
+    },
+    {
+      "manufacturer": "Shenzhen Century Xinyang Technology Co., Ltd",
+      "count": 2,
+      "avg_signal": -64.5,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "BSH Hausgeraete GmbH",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Leviton Manufacturing Co., Inc.",
+      "count": 1,
+      "avg_signal": -53.0,
+      "total_bytes": 508,
+      "avg_bytes": 508.0
+    },
+    {
+      "manufacturer": "Brilliant Home Technology, Inc.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 119,
+      "avg_bytes": 119.0
+    },
+    {
+      "manufacturer": "SAMJIN Co., Ltd.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Quantenna Communcations, Inc.",
+      "count": 1,
+      "avg_signal": -79.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Shenzhen Phaten Tech. LTD",
+      "count": 1,
+      "avg_signal": -64.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Qihoo  360  Technology Co.,Ltd",
+      "count": 1,
+      "avg_signal": -69.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Wisol",
+      "count": 1,
+      "avg_signal": -74.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Roku, Inc.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 1524,
+      "avg_bytes": 1524.0
+    },
+    {
+      "manufacturer": "China Dragon Technology Limited",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Fihonest communication co.,Ltd",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Shenzhen MiaoMing  Intelligent Technology Co.,Ltd",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Wanlida Group Co., LTD",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Continental Automotive Systems Inc.",
+      "count": 1,
+      "avg_signal": -83.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Shenzhen Ceres Technology Co., Ltd.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "shenzhen trolink  Technology Co.,Ltd",
+      "count": 1,
+      "avg_signal": -67.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Hitron Technologies. Inc",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 845,
+      "avg_bytes": 845.0
+    },
+    {
+      "manufacturer": "Resideo",
+      "count": 1,
+      "avg_signal": -73.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Zhuolian (Shenzhen) Communication Co., Ltd",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 52,
+      "avg_bytes": 52.0
+    },
+    {
+      "manufacturer": "Electrolux",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Dell Inc.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 446,
+      "avg_bytes": 446.0
+    },
+    {
+      "manufacturer": "CIMSYS Inc",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 148,
+      "avg_bytes": 148.0
+    },
+    {
+      "manufacturer": "IgniteNet",
+      "count": 1,
+      "avg_signal": -83.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Nabu Casa, Inc.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 370,
+      "avg_bytes": 370.0
+    },
+    {
+      "manufacturer": "DOMEX TECHNOLOGY CORP.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "HangZhou Gubei Electronics Technology Co.,Ltd",
+      "count": 1,
+      "avg_signal": -60.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Molekule",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Reolink Innovation Limited",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 70,
+      "avg_bytes": 70.0
+    },
+    {
+      "manufacturer": "Barrot Technology Co.,LTD",
+      "count": 1,
+      "avg_signal": -77.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "AltoBeam (China) Inc.",
+      "count": 1,
+      "avg_signal": -64.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "TechNexion Ltd.",
+      "count": 1,
+      "avg_signal": -67.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Compex Systems Pte Ltd",
+      "count": 1,
+      "avg_signal": -50.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "TRENDnet, Inc.",
+      "count": 1,
+      "avg_signal": -60.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "OHSUNG",
+      "count": 1,
+      "avg_signal": -70.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Pronto Networks Inc",
+      "count": 1,
+      "avg_signal": -51.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Rivet Networks",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "I&C Technology",
+      "count": 1,
+      "avg_signal": -61.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Magneti Marelli Automotive Electronics (Guangzhou) Co. Ltd",
+      "count": 1,
+      "avg_signal": -73.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Bang & Olufsen A/S",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 746,
+      "avg_bytes": 746.0
+    },
+    {
+      "manufacturer": "MITSUMI ELECTRIC CO.,LTD.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 107,
+      "avg_bytes": 107.0
+    },
+    {
+      "manufacturer": "SparkLAN Communications, Inc.",
+      "count": 1,
+      "avg_signal": -71.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Binatone Electronics International, Ltd",
+      "count": 1,
+      "avg_signal": -70.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Hand Held Products Inc",
+      "count": 1,
+      "avg_signal": -81.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "MERCURY COMMUNICATION TECHNOLOGIES CO.,LTD.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Eight Sleep",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 52,
+      "avg_bytes": 52.0
+    },
+    {
+      "manufacturer": "iRobot Corporation ",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 52,
+      "avg_bytes": 52.0
+    },
+    {
+      "manufacturer": "LigoWave",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Shenzhen Bilian electronic CO.,LTD",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "YEALINK(XIAMEN) NETWORK TECHNOLOGY CO.,LTD.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 181800,
+      "avg_bytes": 181800.0
+    },
+    {
+      "manufacturer": "Control4",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 1610,
+      "avg_bytes": 1610.0
+    },
+    {
+      "manufacturer": "Intrinsyc Software International Inc.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Qolsys Inc.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "OJ-Electronics A/S",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Iton Technology Corp.",
+      "count": 1,
+      "avg_signal": -83.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Sound United LLC",
+      "count": 1,
+      "avg_signal": -68.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Xiaomi Communications Co Ltd",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Quectel Wireless Solutions Co.,Ltd.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Silex Technology, Inc.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Beijing Xiaomi Mobile Software Co., Ltd",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 262,
+      "avg_bytes": 262.0
+    },
+    {
+      "manufacturer": "Guangzhou Juan Intelligent Tech Joint Stock Co.,Ltd",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Shenzhen Linghai Electronics Co.,Ltd",
+      "count": 1,
+      "avg_signal": -77.0,
+      "total_bytes": 215,
+      "avg_bytes": 215.0
+    },
+    {
+      "manufacturer": "Onkyo Technology K.K.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "ASRock Incorporation",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 911,
+      "avg_bytes": 911.0
+    },
+    {
+      "manufacturer": "AMPAK Technology, Inc.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 111,
+      "avg_bytes": 111.0
+    },
+    {
+      "manufacturer": "Logitech",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 160,
+      "avg_bytes": 160.0
+    },
+    {
+      "manufacturer": "FN-LINK TECHNOLOGY Ltd.",
+      "count": 1,
+      "avg_signal": -86.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "ESSYS",
+      "count": 1,
+      "avg_signal": -77.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Shandong New Beiyang Information Technology Co.,Ltd",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 1164,
+      "avg_bytes": 1164.0
+    },
+    {
+      "manufacturer": "Alarm.com",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Sercomm Corporation.",
+      "count": 1,
+      "avg_signal": -68.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Peloton Interactive, Inc",
+      "count": 1,
+      "avg_signal": -62.0,
+      "total_bytes": 1138,
+      "avg_bytes": 1138.0
+    },
+    {
+      "manufacturer": "AAEON Technology Inc.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 70,
+      "avg_bytes": 70.0
+    },
+    {
+      "manufacturer": "Whirlpool Corporation",
+      "count": 1,
+      "avg_signal": -68.0,
+      "total_bytes": 0,
+      "avg_bytes": 0.0
+    },
+    {
+      "manufacturer": "Shenzhen Hi-Link Electronic CO.,Ltd.",
+      "count": 1,
+      "avg_signal": -28.0,
+      "total_bytes": 350,
+      "avg_bytes": 350.0
+    },
+    {
+      "manufacturer": "Quanta Storage Inc.",
+      "count": 1,
+      "avg_signal": 0.0,
+      "total_bytes": 5412,
+      "avg_bytes": 5412.0
+    }
+  ]
+}
