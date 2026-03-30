@@ -1,7 +1,5 @@
 "use client";
 
-import { type Sketch } from "@p5-wrapper/react";
-import { NextReactP5Wrapper } from "@p5-wrapper/next";
 import { useEffect, useMemo, useState } from "react";
 
 type ManufacturerStats = {
@@ -45,67 +43,6 @@ type CaptureDataResponse = {
   manufacturerStats: ManufacturerStats;
   timelineActivity: TimelineActivity;
   devicesSearching: SearchingDevice[];
-};
-
-type SparklineProps = {
-  series: number[];
-  width?: number;
-  height?: number;
-};
-
-const sparklineSketch: Sketch<SparklineProps> = (p5) => {
-  let props: SparklineProps = { series: [], width: 140, height: 28 };
-
-  p5.setup = () => {
-    p5.createCanvas(props.width ?? 140, props.height ?? 28);
-    p5.pixelDensity(2);
-    p5.noLoop();
-  };
-
-  p5.updateWithProps = (nextProps) => {
-    props = {
-      series: Array.isArray(nextProps.series) ? nextProps.series : [],
-      width: nextProps.width ?? 140,
-      height: nextProps.height ?? 28,
-    };
-    p5.resizeCanvas(props.width ?? 140, props.height ?? 28);
-    p5.redraw();
-  };
-
-  p5.draw = () => {
-    const w = props.width ?? 140;
-    const h = props.height ?? 28;
-    const s = props.series ?? [];
-
-    p5.clear();
-
-    if (!s.length) return;
-
-    let minV = Infinity;
-    let maxV = -Infinity;
-    for (const v of s) {
-      if (v < minV) minV = v;
-      if (v > maxV) maxV = v;
-    }
-    if (!Number.isFinite(minV) || !Number.isFinite(maxV)) return;
-    if (minV === maxV) {
-      minV -= 1;
-      maxV += 1;
-    }
-
-    const pad = 2;
-    p5.noFill();
-    p5.stroke(90);
-    p5.strokeWeight(1.25);
-
-    p5.beginShape();
-    for (let i = 0; i < s.length; i++) {
-      const x = p5.map(i, 0, s.length - 1, pad, w - pad);
-      const y = p5.map(s[i], minV, maxV, h - pad, pad);
-      p5.vertex(x, y);
-    }
-    p5.endShape();
-  };
 };
 
 function formatInt(n: number) {
@@ -159,31 +96,6 @@ export default function Home() {
     setSelectedManufacturer(topManufacturers[0].manufacturer);
   }, [topManufacturers, selectedManufacturer]);
 
-  const seriesByManufacturer = useMemo(() => {
-    const timeline = data?.timelineActivity?.timeline ?? [];
-    const map = new Map<string, number[]>();
-
-    for (const m of topManufacturers) {
-      const series = timeline.map((bin) => bin.manufacturers?.[m.manufacturer] ?? 0);
-      map.set(m.manufacturer, series);
-    }
-    return map;
-  }, [data, topManufacturers]);
-
-  const manufacturersWithDeviceNames = useMemo(() => {
-    const set = new Set<string>();
-    const timeline = data?.timelineActivity?.timeline ?? [];
-    for (const bin of timeline) {
-      const devices = bin.devices ?? [];
-      for (const d of devices) {
-        const manu = typeof d?.manufacturer === "string" ? d.manufacturer : "";
-        const name = typeof d?.device_name === "string" ? d.device_name.trim() : "";
-        if (manu && name) set.add(manu);
-      }
-    }
-    return set;
-  }, [data]);
-
   const ssidCounts = useMemo(() => {
     const target = selectedManufacturer;
     if (!target) return [];
@@ -219,15 +131,15 @@ export default function Home() {
     ssid.trim().toLowerCase() === "no probe ssids found for this manufacturer.";
 
   return (
-    <div className="flex flex-col flex-1 bg-black text-zinc-50">
-      <header className="sticky top-0 z-10 border-b border-white/10 bg-[#000d10]/80 px-4 py-3 backdrop-blur">
+    <div className="flex min-h-0 flex-1 flex-col overflow-hidden bg-black text-zinc-50">
+      <header className="z-10 shrink-0 border-b border-slate-600 bg-[#000d10]/80 px-4 py-3 backdrop-blur">
         <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-3">
           <div className="flex flex-col">
             <h1 className="text-lg font-semibold tracking-tight">
               Who is out there
             </h1>
             <p className="text-sm text-zinc-400">
-              Manufacturer presence + probe SSIDs (p5 sparklines)
+              Manufacturer presence + probe SSIDs
             </p>
           </div>
 
@@ -236,7 +148,7 @@ export default function Home() {
             <input
               value={captureId}
               onChange={(e) => setCaptureId(e.target.value)}
-              className="w-28 rounded-md border border-white/10 bg-[#000d10] px-2 py-1 font-mono text-sm text-zinc-50"
+              className="w-28 rounded-md border border-slate-600 bg-[#000d10] px-2 py-1 font-mono text-sm text-zinc-50"
               placeholder="YYYYMMDD"
               inputMode="numeric"
             />
@@ -244,10 +156,10 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="mx-auto grid w-full max-w-6xl grid-cols-1 gap-4 px-4 py-4 md:grid-cols-5">
-        <section className="md:col-span-3">
-          <div className="rounded-xl border border-white/10 bg-[#000d10] p-3">
-            <div className="mb-3 flex items-baseline justify-between">
+      <main className="mx-auto grid min-h-0 w-full max-w-6xl flex-1 grid-cols-1 grid-rows-[minmax(0,1fr)_minmax(0,1fr)] gap-4 overflow-hidden px-4 py-3 md:grid-cols-5 md:grid-rows-1">
+        <section className="flex min-h-0 flex-col md:col-span-3">
+          <div className="flex min-h-0 flex-1 flex-col rounded-xl border border-slate-600 bg-[#000d10] p-3">
+            <div className="mb-3 flex shrink-0 items-baseline justify-between">
               <h2 className="text-sm font-semibold">Top manufacturers</h2>
               <div className="text-xs text-zinc-400">
                 {data?.timelineActivity?.total_bins
@@ -263,26 +175,24 @@ export default function Home() {
             ) : !data ? (
               <div className="p-3 text-sm text-zinc-400">Loading capture…</div>
             ) : (
-              <div className="overflow-hidden rounded-lg border border-white/10">
-                <div className="grid grid-cols-[1fr_90px_160px] gap-0 border-b border-white/10 bg-white/5 px-3 py-2 text-xs font-medium text-zinc-400">
+              <div className="flex min-h-0 flex-1 flex-col overflow-hidden rounded-lg border border-slate-600">
+                <div className="grid shrink-0 grid-cols-[1fr_90px] gap-0 border-b border-slate-600 bg-white/5 px-3 py-2 text-xs font-medium text-zinc-400">
                   <div>manufacturer</div>
                   <div className="text-right">count</div>
-                  <div className="text-right">trend</div>
                 </div>
-                <div className="max-h-[40vh] overflow-y-auto md:max-h-[70vh]">
+                <div className="min-h-0 flex-1 overflow-y-auto">
                   {topManufacturers.map((m, idx) => {
                     const isSelected = selectedManufacturer === m.manufacturer;
-                    const series = seriesByManufacturer.get(m.manufacturer) ?? [];
                     return (
                       <button
                         key={m.manufacturer}
                         type="button"
                         onClick={() => setSelectedManufacturer(m.manufacturer)}
                         className={[
-                          "grid w-full grid-cols-[1fr_90px_160px] items-center gap-0 px-3 py-2 text-left text-sm",
-                          "border-b border-white/5 hover:bg-white/5",
+                          "grid w-full grid-cols-[1fr_90px] items-center gap-0 px-3 py-2 text-left text-sm",
+                          "border-b border-slate-700 hover:bg-white/5",
                           isSelected
-                            ? "bg-[#1a2528]"
+                            ? "bg-[#264249]"
                             : idx % 2 === 0
                               ? "bg-[#001216ba]"
                               : "bg-[#000d10]",
@@ -294,14 +204,6 @@ export default function Home() {
                         <div className="text-right font-mono text-xs text-zinc-300">
                           {formatInt(m.count)}
                         </div>
-                        <div className="flex justify-end">
-                          <NextReactP5Wrapper
-                            sketch={sparklineSketch}
-                            series={series}
-                            width={140}
-                            height={28}
-                          />
-                        </div>
                       </button>
                     );
                   })}
@@ -311,10 +213,10 @@ export default function Home() {
           </div>
         </section>
 
-        <aside className="md:col-span-2">
-          <div className="rounded-xl border border-white/10 bg-[#000d10] p-3">
-            <h2 className="text-sm font-semibold">Probe SSIDs</h2>
-            <p className="mt-1 text-xs text-zinc-400">
+        <aside className="flex min-h-0 flex-col md:col-span-2">
+          <div className="flex min-h-0 flex-1 flex-col rounded-xl border border-slate-600 bg-[#000d10] p-3">
+            <h2 className="shrink-0 text-sm font-semibold">Probe SSIDs</h2>
+            <p className="mt-1 shrink-0 text-xs text-zinc-400">
               Selected manufacturer:{" "}
               <span className="font-medium text-zinc-50">
                 {selectedManufacturer ?? "—"}
@@ -324,18 +226,18 @@ export default function Home() {
             {!data ? (
               <div className="mt-3 text-sm text-zinc-400">Loading…</div>
             ) : (
-              <div className="mt-3 overflow-hidden rounded-lg border border-white/10">
-                <div className="grid grid-cols-[1fr_64px] gap-0 border-b border-white/10 bg-white/5 px-3 py-2 text-xs font-medium text-zinc-400">
+              <div className="mt-3 flex min-h-0 flex-1 flex-col overflow-hidden rounded-lg border border-slate-600">
+                <div className="grid shrink-0 grid-cols-[1fr_64px] gap-0 border-b border-slate-600 bg-white/5 px-3 py-2 text-xs font-medium text-zinc-400">
                   <div>SSID (raw)</div>
                   <div className="text-right">devices</div>
                 </div>
-                <div className="max-h-[70vh] overflow-y-auto">
+                <div className="min-h-0 flex-1 overflow-y-auto">
                   {ssidCounts.length ? (
                     ssidCounts.map(({ ssid, devicesCount }, idx) => (
                       <div
                         key={ssid}
                         className={[
-                          "grid grid-cols-[1fr_64px] items-center gap-0 border-b border-white/5 px-3 py-2 text-sm",
+                          "grid grid-cols-[1fr_64px] items-center gap-0 border-b border-slate-700 px-3 py-2 text-sm",
                           idx % 2 === 0 ? "bg-[#001216ba]" : "bg-[#000d10]",
                         ].join(" ")}
                       >
